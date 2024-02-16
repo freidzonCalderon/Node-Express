@@ -15,13 +15,13 @@ app.use(bodyParser.json());
 // CORS
 app.use(cors());
 
-// GET Request
+// GET
 app.get("/", (req, res) => {
 	console.log(users);
 	res.send(users);
 });
 
-// POST Request
+// POST
 app.post("/", (req, res) => {
 	const user = req.body;
 	const userID = Date.now();
