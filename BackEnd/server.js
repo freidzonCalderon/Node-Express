@@ -1,19 +1,18 @@
 "use strict";
 
-// Data
 const users = require("./Data/users.json");
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 
 // Express
-const express = require("express");
 const PORT = 4000;
 const app = express();
 
 // BodyParser
-const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
 // CORS
-const cors = require("cors");
 app.use(cors());
 
 // GET Request
