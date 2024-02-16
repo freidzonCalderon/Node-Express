@@ -1,6 +1,6 @@
 "use strict";
 
-// Fake Data
+// Data
 const users = require("./Data/users.json");
 
 // Express
