@@ -28,7 +28,7 @@ app.post("/", (req, res) => {
 	const userID = Date.now();
 	const userWithID = { ...user, id: userID };
 	users.push(userWithID);
-	res.send("Added Succesfuly");
+	res.send("Added Successfully");
 });
 
 app.listen(PORT, () => {
