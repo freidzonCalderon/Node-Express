@@ -52,7 +52,7 @@ const getRequest = async () => {
 		console.log(data);
 		return data;
 	} catch (err) {
-		console.err(`Error fetching data: ${err}`);
+		console.error(`Error fetching data: ${err}`);
 	}
 };
 
